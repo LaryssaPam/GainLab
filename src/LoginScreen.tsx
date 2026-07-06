@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Alert, ActivityIndicator } from 'react-native';
-import { auth } from '../../firebase'; // Ce chemin remonte bien vers ton fichier firebase.ts
+import { auth } from '../firebase'; // Ce chemin remonte bien vers ton fichier firebase.ts
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 
 export default function LoginScreen() {
@@ -36,7 +36,7 @@ export default function LoginScreen() {
 
   return (
     <View style={style.container}>
-      <Text style={style.title}>GainLab 🏋️‍♂️</Text>
+      <Text style={style.title}>GAINLAB</Text>
       <Text style={style.subtitle}>
         {isRegistering ? "Crée ton compte pour débuter" : "Connecte-toi pour suivre tes perfs"}
       </Text>
