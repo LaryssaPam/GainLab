@@ -1,0 +1,27 @@
+[debug] [2026-07-06T19:50:50.233Z] ----------------------------------------------------------------------
+[debug] [2026-07-06T19:50:50.245Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\larys\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init emulators
+[debug] [2026-07-06T19:50:50.245Z] CLI Version:   15.22.4
+[debug] [2026-07-06T19:50:50.246Z] Platform:      win32
+[debug] [2026-07-06T19:50:50.246Z] Node Version:  v25.2.1
+[debug] [2026-07-06T19:50:50.246Z] Detected Agent: unknown
+[debug] [2026-07-06T19:50:50.246Z] Time:          Mon Jul 06 2026 15:50:50 GMT-0400 (UTC−04:00)
+[debug] [2026-07-06T19:50:50.246Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-07-06T19:50:50.249Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\devellopement\GainLab
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[debug] [2026-07-06T19:50:57.464Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-07-06T19:50:57.465Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
