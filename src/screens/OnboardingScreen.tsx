@@ -117,6 +117,7 @@ export default function OnboardingScreen() {
             <Text style={styles.title}>QUEL EST TON OBJECTIF ?</Text>
             {renderCard('prise_de_masse', 'Prise de masse ', 'Augmenter la masse et le volume musculaire.', userData.objective, 'objective')}
             {renderCard('perte_graisse', 'Perte de graisse ', 'Brûler les calories et affiner la silhouette.', userData.objective, 'objective')}
+            {renderCard('remise_en_forme', 'Remise en forme ', 'Améliorer votre santé.', userData.objective, 'objective'  )}
           </View>
         );
 
@@ -127,6 +128,7 @@ export default function OnboardingScreen() {
             {renderCard('musculation', 'Musculation ', 'Poids et machines.', userData.discipline, 'discipline')}
             {renderCard('calisthenics', 'Calisthénie ', 'Au poids du corps.', userData.discipline, 'discipline')}
             {renderCard('crossfit', 'CrossFit ', 'Haute intensité et WODs.', userData.discipline, 'discipline')}
+            {renderCard('hybride', 'Hybride ', 'Mixte des disciplines.', userData.discipline, 'discipline')}
           </View>
         );
 
